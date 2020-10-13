@@ -120,3 +120,5 @@ USE_TZ = True
 STATIC_ROOT = './backend/templates/'
 STATIC_URL = './backend/static/'
 
+STATICFILES_DIRS = (str(BASE_DIR.joinpath('backend/static')),) # new
+
