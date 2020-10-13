@@ -25,7 +25,7 @@ SECRET_KEY = '#z2b7z)099ee$!uhioaig947u@1ul4#0#i7n9()wmg!12u#ef@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hololens-test-ptc.herokuapp.com/']
+ALLOWED_HOSTS = ['hololens-test-ptc.herokuapp.com']
 
 
 # Application definition
