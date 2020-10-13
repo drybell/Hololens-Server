@@ -120,7 +120,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 STATIC_ROOT = './backend/templates/'
-STATIC_URL = '/static/'
+STATIC_URL = './backend/static/'
 
 STATICFILES_DIRS = (str(BASE_DIR.joinpath('static')),) # new
 
