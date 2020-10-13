@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '#z2b7z)099ee$!uhioaig947u@1ul4#0#i7n9()wmg!12u#ef@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['hololens-test-ptc.herokuapp.com', '127.0.0.1']
 
